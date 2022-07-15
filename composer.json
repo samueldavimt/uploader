@@ -1,0 +1,30 @@
+{
+    "name": "uploader/uploader",
+    "description": "upload component",
+    "autoload": {
+        "psr-4": {
+            "Uploader\\Uploader\\": "src/"
+        }
+    },
+   
+    "authors": [
+        {
+            "name": "Samuel Davi",
+            "email": "samuel.davimt@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2",
+        "ext-gd": "*",
+        "ext-mbstring": "*",
+        "ext-exif": "*",
+        "intervention/image": "^2.7"
+
+    }
+    
+}
