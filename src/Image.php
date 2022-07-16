@@ -1,6 +1,6 @@
 <?php
 
-namespace Uploader\Uploader;
+namespace Upload\Uploader;
 
 use Exception;
 use Intervention\Image\Exception\ImageException;

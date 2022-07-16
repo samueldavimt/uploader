@@ -1,9 +1,9 @@
 {
-    "name": "uploader/uploader",
+    "name": "upload/uploader",
     "description": "upload component",
     "autoload": {
         "psr-4": {
-            "Uploader\\Uploader\\": "src/"
+            "Upload\\Uploader\\": "src/"
         }
     },
    
@@ -14,17 +14,13 @@
             "role": "Developer"
         }
     ],
-    "config": {
-        "vendor-dir": "vendor"
-    },
-    "minimum-stability": "stable",
     "require": {
         "php": ">=7.2",
         "ext-gd": "*",
         "ext-mbstring": "*",
-        "ext-exif": "*",
         "intervention/image": "^2.7"
 
-    }
+    },
+    "version": "1.0"
     
 }

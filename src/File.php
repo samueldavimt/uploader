@@ -1,6 +1,6 @@
 <?php
 
-namespace Uploader\Uploader;
+namespace Upload\Uploader;
 
 class File extends Uploader
 {
